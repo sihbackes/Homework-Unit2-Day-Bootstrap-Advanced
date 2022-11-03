@@ -20,6 +20,7 @@ footer {
   height: 15vw;
   object-fit: cover;
 }
+
 .truncate {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -42,4 +43,39 @@ footer {
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
   color: #78cdd2;
+}
+
+.profile-pic-box {
+  height: 200px;
+  width: 200px;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial-text > h5 {
+  display: inline-block;
+}
+.testimonial-text > p {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
 }
